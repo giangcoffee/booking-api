@@ -16,7 +16,7 @@ jobs:
           command: |
             sudo docker-php-ext-install zip
             sudo docker-php-ext-install pdo_mysql
-            sudo apt install -y mysql-client
+            sudo apt install -y default-mysql-client
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
